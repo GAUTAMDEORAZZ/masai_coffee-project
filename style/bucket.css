@@ -1,0 +1,23 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 20px;
+}
+
+#bucket>div>img{
+    width: 100%;
+    height: 300px;
+}
+
+#bucket>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#total-div>h1{
+    margin-left: 80%;
+    margin-top: -10px;
+}
+#total-div{
+    display: flex;
+}
