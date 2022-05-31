@@ -1,4 +1,4 @@
-console.log("i am checkout")
+// console.log("i am checkout")
 
 function checkOut(){
     return true
