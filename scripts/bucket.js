@@ -73,7 +73,7 @@ let total=document.getElementById("total_amount")
 
    function removeItem(elem,index)
     {
-        data.splice(elem,1)
+        data.splice(index,1)
         console.log(data)
         localStorage.setItem("coffee",JSON.stringify(data))
         appendData(data)
